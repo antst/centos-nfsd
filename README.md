@@ -1,9 +1,9 @@
 #Readme
 In order to have smooth nfs4-root, it is desirable to avoid mapping of UIDs and GIDs on both sides, client and server, completely.
-Patch with "nfs4_disable_idmapping" parameter for nfs module found it's way to kernel long time ago, and RHEL 6.x kernel has it.
-Patch with "nfs4_disable_idmapping" parameter for nfsd module has appeared in 
+In RHEL 6.x kernels, on a client side there is "nfs4_disable_idmapping" parameter, which set to TRUE by default.
+To complete this story, commit e9541ce8efc22c233a045f091c2b969923709038 added the same parameter for the server side.
 
-I backported it from 3.11 kernel and exported nsfd soruce tree from 2.6.32-358.11.1.el6 with this patch for dkms.
+I backported e9541ce8efc22c233a045f091c2b969923709038 for RHEL6 kernel and exported nsfd soruce tree from 2.6.32-358.11.1.el6 with this patch as dkms module.
 
 #Installation
 
