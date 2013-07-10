@@ -15,3 +15,6 @@ On target host perform next commands (assuming that you already have installed d
  dkms build -m knfsd-idmapfix -v 358.11.1
  dkms install -m knfsd-idmapfix -v 358.11.1
  ```
+ 
+ native module will be masked by this one.
+ 
