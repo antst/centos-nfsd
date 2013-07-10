@@ -5,6 +5,9 @@ To complete this story, commit e9541ce8efc22c233a045f091c2b969923709038 added th
 
 I backported e9541ce8efc22c233a045f091c2b969923709038 for RHEL6 kernel and exported nsfd soruce tree from 2.6.32-358.11.1.el6 with this patch as dkms module.
 
+Additionally I applied patch a043226bc140a2c1dde162246d68a67e5043e6b2, which allows files which have exec-only permissions.
+
+
 #Installation
 
 On target host perform next commands (assuming that you already have installed dkms)
