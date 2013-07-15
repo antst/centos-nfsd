@@ -1,5 +1,6 @@
-#Readme
-kernel nfsd from centos/rhel kernel-2.6.32-358.11.1 with few backported patches/bugfixes, prepared as dkms module
+centos-nfsd
+==========
+kernel NFSD from centos/rhel kernel-2.6.32-358.11.1 with few backported patches/bugfixes, prepared as dkms module
 
 Applied patches:
 
