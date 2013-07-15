@@ -14,8 +14,8 @@ which allows to avoid id mapping on server side when AUTH_SYS (must have for NFS
 On target host perform next commands (assuming that you already have installed dkms)
 
 ```bash
- git clone https://github.com/antst/centos-nfsd.git /usr/src/centos-nfsd-358.11.1
- dkms install -m centos-nfsd -v 358.11.1
+ git clone https://github.com/antst/centos-nfsd.git /usr/src/nfsd-358.11.1
+ dkms install -m nfsd -v 358.11.1
  ```
  
  native module will be masked by this one.
