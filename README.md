@@ -2,6 +2,7 @@
 kernel nfsd from centos/rhel kernel-2.6.32-358.11.1 with few backported patches/bugfixes, prepared as dkms module
 
 Applied patches:
+
 1) e9541ce8efc22c233a045f091c2b969923709038, adds parameter "nfs4_disable_idmapping" to nfsd, 
 which allows to avoid id mapping on server side when AUTH_SYS (must have for NFS4-root)
 
