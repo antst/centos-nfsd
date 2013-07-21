@@ -1522,5 +1522,6 @@ static void __exit exit_nfsd(void)
 
 MODULE_AUTHOR("Olaf Kirch <okir@monad.swb.de>");
 MODULE_LICENSE("GPL");
+MODULE_INFO(srcversion,"FFFFFFFFFFFFFFFFFFFFFF01");
 module_init(init_nfsd)
 module_exit(exit_nfsd)
